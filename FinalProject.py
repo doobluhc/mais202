@@ -68,7 +68,7 @@ def SVM ():
     print(y_pred)
 
 
-    #visulize the data
+    # visulize the data
     X_train, y_train = make_blobs(n_samples=50, centers=2,
                                   random_state=0, cluster_std=0.60)
     plt.scatter(X_train[:, 0], X_train[:, 1], c=y_train, s=50, cmap='autumn');
